@@ -21,7 +21,7 @@ $(document).ready(function(){
 	}); 
  
 	$('.service_owl_carousel').owlCarousel({
-		items:3.6,
+		items:3.8,
 		loop:true,
 		nav:false,
 		dots:false,
@@ -35,7 +35,7 @@ $(document).ready(function(){
 			  items:2
 			},
 			1000:{
-				items:3.6,
+				items:3.8,
 			}
 		  }
 	});

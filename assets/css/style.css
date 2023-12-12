@@ -302,6 +302,10 @@ h1 {
 	margin: 1px;
 }
 
+.last_single_service .servies_img img {
+	height: 430px;
+}
+
 .service_info p {
 	color: var(--grey-grey-900, #1C1B18); 
 	font-size: 14px;
