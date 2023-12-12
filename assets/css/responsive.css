@@ -102,6 +102,9 @@
     .product_area { 
         margin-bottom: 30px;
     }
+    .main_area {
+        overflow-x: hidden;
+    }
 }
 
 @media all and (max-width: 450px){
