@@ -74,6 +74,18 @@
     .servies_img {
         padding: 25px 15px; 
     }
+    .product_single_item ul li .btn_1 { 
+        font-size: 16px; 
+    }
+    .product_single_item ul li {
+        margin-bottom: 5px;
+    }
+    .product_single_item {
+        margin-bottom: 20px;
+    }
+    .product_single_item h2 { 
+        font-size: 25px; 
+    }
 }
 
 @media all and (max-width: 575px){

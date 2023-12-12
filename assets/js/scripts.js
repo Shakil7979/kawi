@@ -1,19 +1,19 @@
 $(document).ready(function(){
 	// Mobile Menu
-	// $('.logo a i').click(function(){
-	// 	$('.menu ul').slideToggle(1000);
+	$('.product_cart').click(function(){
+		$('.product_sidebar').fadeIn();
+		$('.overlay_box').addClass('overlay_box_add');
 
-	// 	return false
-	// });
+		return false
+	});
 
-	// Banner Carousel
-	// $('.banner_carousel').owlCarousel({
-	// 	items:1,
-	// 	loop:true,
-	// 	nav:true,
-	// 	dots:true,
-	// 	autoplay:true,
-	// });
+	$('.close_product').click(function(){
+		$('.product_sidebar').fadeOut();
+		$('.overlay_box').removeClass('overlay_box_add');
+
+		return false
+	});
+
 
 
 

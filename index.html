@@ -26,6 +26,9 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
     <body>
+
+        <div class="overlay_box"></div>
+
         <!--=====================  Start Header Section  =====================-->
         <header class="header_main section_container">
             <div class="container-fluid">
@@ -44,7 +47,7 @@
                             <div class="header_icons">
                                 <ul>
                                     <li><a href="#"><img src="assets/images/user.png" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/bag.png" alt=""></a></li>
+                                    <li><a class="product_cart" href="#"><img src="assets/images/bag.png" alt=""></a></li>
                                     <li><a href="#"><img src="assets/images/search.png" alt=""></a></li>
                                 </ul>
                             </div>
@@ -55,11 +58,47 @@
         </header>
         <!--=====================  End Header Section  =====================-->
 
+        <div class="product_sidebar">
+            <a href="#" class="close_product"><i class="fa-solid fa-xmark"></i></a>
+            <div class="product_menu">
+                <div class="product_single_item">
+                    <h2>Produkty</h2>
+                    <ul>
+                        <li><a href="#" class="btn_1 active"><i class="fa-solid fa-arrow-right"></i> Kawa do ekspresu i kawiarki</a></li>
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Kawa pod przelew (filtr)</a></li>
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Pomysły na prezent</a></li>
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Zestawy</a></li>
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Vouchery</a></li>
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> B2B</a></li>
+                    </ul>
+                </div>
+                <div class="product_single_item">
+                    <h2>Współpraca B2B</h2>
+                    <ul> 
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Kawa do biura</a></li> 
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Kawa do gastronomii</a></li> 
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Własna marka kawy</a></li> 
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Zamów próbki</a></li> 
+                    </ul>
+                </div>
+                <div class="product_single_item">
+                    <h2>Poznaj nas</h2> 
+                </div>
+                <div class="product_single_item">
+                    <h2>Kontakt</h2>
+                    <ul> 
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Zadzwoń</a></li>
+                        <li><a href="#" class="btn_1"><i class="fa-solid fa-arrow-right"></i> Napisz e-mail</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <main class="main_area">
             
 
             <!--=====================  Start Banner Section  =====================-->
-            <section class="banner_area section_container">
+            <section class  ="banner_area section_container">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-6">
