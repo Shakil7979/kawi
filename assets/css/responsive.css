@@ -1,5 +1,9 @@
 @media all and (max-width: 1199px){
-
+    .office_coffee_right {
+        width: 600px;
+        margin-left: 25px;
+    }
+    
 }
 
 @media all and (max-width: 991px){
@@ -48,8 +52,64 @@
         margin-left: 15px;
     }
 
+    .banner2nd_title h1 {
+        margin: 50px 0px 30px 0px;
+        font-size: 40px;
+        line-height: normal;
+    }
+    .banner2nd_img img {
+        margin-top: 80px;
+    }
+    .office_coffee_main {
+        padding: 95px 0px 0px 0px;
+    }
+    .ocli1 {
+        margin-top: 80px;
+    }
+    .write_to_us_title h1 {
+        line-height: normal;
+        font-size: 40px;
+    }
+    .write_to_us_main {
+        padding: 95px 0px 75px 0px;
+    }
+    .write_us_form_box {
+        padding: 40px 40px 15px 40px;
+        margin: 40px 0px 65px 0px;
+    }
+    .write_us_button button {
+        color: var(--black-black-700, #312C2A);
+        font-size: 16px;
+        line-height: 19.8px;
+        width: 180px;
+        height: 38px;
+        gap: 8px;
+    }
+    .footer_single4 {
+        max-width: 300px;
+    }
+    .footer_single_form input:nth-child(2) {
+        padding: 0px 100px 0px 0px;
+    }
+    .fsform_btn button {
+        font-size: 15px;
+        line-height: 19.8px;
+    }
+    .fsform_btn button i {
+        font-size: 10px;
+        margin-right: 6px;
+    }
+    .footer_main {
+        padding: 90px 0px;
+    }
+
 }
 
+@media all and (min-width: 768px){
+    .menu { 
+        display: block !important;
+    }
+}
 @media all and (max-width: 767px){
 	.banner_image_right {
         margin-top: 20px;
@@ -86,6 +146,88 @@
     .product_single_item h2 { 
         font-size: 25px; 
     }
+    .menu_icon {
+        display: block;
+        margin-left: 15px !important;
+    }
+    .header_icons {
+        display: flex;
+        align-items: flex-end;
+    }
+    .menu {
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: 100%;
+        background: #ddd;
+        display: none;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .menu ul li a {
+        margin-right: 0px;
+        line-height: 35px;
+    }
+    .header_main {
+        padding: 25px 0px;
+    }
+    .banner2nd_title h1 {
+        font-size: 35px;
+    }
+    .office_coffee {
+        flex-direction: column;
+    }
+    .ocli1 img {
+        max-width: 100%;
+    }
+    .office_coffee_right {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .office_coffee_right {
+        margin-top: 50px;
+    }
+    .ocli2 {
+        margin-bottom: 0px;
+        order: 2;
+        margin-top: 60px;
+    }
+    .office_coffee_right {
+        display: flex;
+        flex-direction: column;
+    }
+    .office_coffee2 {
+        margin-top: 0px;
+    }
+    .wuf_single1 {
+        flex: 0 0 100%;
+    }
+    .wuf_single2 {
+        flex: 0 0 100%;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+    .footer_main {
+        padding: 20px 0px 60px 0px;
+    }
+    .footer_single {
+        margin-top: 40px;
+    }
+    .footer_single4 {
+        max-width: 100%;
+    }
+    .write_to_us_title h1 {
+        font-size: 35px;
+    }
+    .write_to_us_main {
+        padding: 75px 0px 65px 0px;
+    }
 }
 
 @media all and (max-width: 575px){
@@ -117,8 +259,71 @@
     .main_area {
         overflow-x: hidden;
     }
-}
+    .header_icons ul li:nth-child(2) a {
+        margin: 0px 15px;
+    }
+    .menu_icon {
+        display: block;
+        margin-left: 10px !important;
+    }
+    .banner2nd_title h1 {
+        font-size: 32px;
+        margin: 30px 0px 30px 0px;
+    }
+    .banner2nd_title a, .office_coffee_left_contents a {
+        font-size: 15px;
+        line-height: 18.8px;
+    }
+    .banner2nd_img img {
+        margin-top: 55px;
+    }
+    .office_coffee_main {
+        padding: 65px 0px 0px 0px;
+    }
+    .office_coffee_left_contents h3 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .office_coffee_left_contents p {
+        font-size: 15px;
+        line-height: normal;
+        margin: 30px 0px 16px 0px;
+    }
+    .ocli1 {
+        margin-top: 50px;
+    }
+    .write_to_us_title h1 {
+        font-size: 30px;
+    }
+    .write_us_form_box {
+        padding: 20px 20px 15px 20px;
+        margin: 40px 0px 45px 0px;
+    }
+    .wuf_single label {
+        font-size: 16px;
+        line-height: 19.8px;
+        margin-bottom: 15px;
+    }
+    .wuf_single input {
+        font-size: 16px;
+        line-height: 19.8px;
+    }
+    .footer_single ul li span {
+        margin-bottom: 20px;
+    }
+    .footer_single ul li a {
+        margin: 5px 0px;
+    }
+    .write_to_us_main {
+        padding: 60px 0px 50px 0px;
+    }
+} 
 
-@media all and (max-width: 450px){
+
+
+
+
+
     
-}
+    
+     

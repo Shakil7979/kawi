@@ -64,6 +64,76 @@ ul li a,a{
 .header_icons ul li:nth-child(2) a{
 	margin: 0px 24px;
 }
+/*Start Mobile Menu icon*/
+#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+	width: 28px;
+	height: 23px;
+	position: relative;
+	margin: 0px;
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	background: #000000;
+	border-radius: 0px;
+	opacity: 1;
+	left: 0;
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
+	-webkit-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+#nav-icon4 span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+      -ms-transform-origin: left center;
+          transform-origin: left center;
+}
+#nav-icon4 span:nth-child(2) {
+	top: 8px;
+	-webkit-transform-origin: left center;
+	    -ms-transform-origin: left center;
+	        transform-origin: left center;
+}
+#nav-icon4 span:nth-child(3) {
+	top: 16px;
+	-webkit-transform-origin: left center;
+	    -ms-transform-origin: left center;
+	        transform-origin: left center;
+}
+#nav-icon4.open span:nth-child(1) {
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	top: -2px;
+	left: 2px;
+}
+#nav-icon4.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+#nav-icon4.open span:nth-child(3) {
+	-webkit-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+	top: 18px;
+	left: 2px;
+}
+/*End Mobile Menu icon*/
+.menu_icon{
+	display: none;
+}
 
 /*==================  End Banner Section  ==================*/
 
@@ -387,6 +457,269 @@ h1 {
 /*==================  End Header Section  ==================*/
 
 
+
+
+
+/*//////////////////////////// Start 2nd Page ////////////////////////////*/
+
+/*==================  Start Banner Section  ==================*/
+
+.banner2nd_title h1{
+	margin: 70px 0px 40px 0px;
+}
+.banner2nd_title a,.office_coffee_left_contents a {
+	display: inline-block;
+	color: var(--black-black-700, #312C2A);
+	font-size: 19px;
+	line-height: 22.8px;
+	border-bottom: 1px solid;
+}
+.banner2nd_title a:hover,.office_coffee_left_contents a:hover{
+	border-bottom: none;
+}
+.banner2nd_title a i, .office_coffee_left_contents a i {
+    margin-right: 10px;
+    font-size: 13px;
+}
+.banner2nd_img img{
+	width: 100%;
+	height: auto;
+	margin-top: 115px;
+}
+/*==================  End Banner Section  ==================*/
+
+/*==================  Start (Coffee for office) Section  ==================*/
+.office_coffee_main{
+	padding: 130px 0px 0px 0px;
+}
+.office_coffee{
+	display: flex;
+	justify-content: space-between;
+}
+.office_coffee_left_contents{
+	max-width: 600px;
+}
+.office_coffee_right{
+	width: 670px;
+}
+.office_coffee_left_contents h3{
+	color: var(--black-black-700, #312C2A);
+	font-size: 36px;
+	line-height: 43.2px;
+	letter-spacing: -1.08px;
+}
+.office_coffee_left_contents p{
+	color: #000;
+	font-size: 19px;
+	line-height: 22.8px;
+	margin: 60px 0px 22px 0px;
+	max-width: 592px;
+}
+.ocli1 img{
+	max-width: 554px;
+	width: 100%;
+	height: auto;
+}
+.ocli1{
+	margin-top: 120px;
+}
+
+.ocli2{
+	margin-top: 0px;
+	margin-bottom: 115px;
+}
+.ocli2 img{
+	max-width: 670px;
+	width: 100%;
+	height: auto;
+}
+.office_coffee2{
+	margin-top: 95px;
+}
+.oclimg2 img{
+	max-width: 600px;
+	width: 100%;
+	height: auto;
+}
+.ocls2{
+	margin-top: 65px;
+}
+/*==================  End (Coffee for office) Section  ==================*/
+
+/*==================  Start (Write to us) Section  ==================*/
+.write_to_us_main{
+	padding: 130px 0px 100px 0px;
+}
+.write_to_us_title h1{
+	font-weight: 300;
+	line-height: 100px;
+	text-align: center;
+}
+.write_us_form_box{
+	padding: 60px 60px 25px 60px;
+	border: 1px solid #E6E6E6;
+	margin: 50px 0px 90px 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.wuf_single{
+	margin-bottom: 35px;
+}
+.wuf_single1{
+	flex: 0 0 30%;
+}
+.wuf_single2{
+	flex: 0 0 45%;
+}
+.wuf_single3{
+	flex: 0 0 100%;
+}
+.wuf_single label{
+	color: #181818;
+	font-size: 19px;
+	line-height: 22.8px;
+	letter-spacing: -0.57px;
+	margin-bottom: 22px;
+}
+.wuf_single input{
+	width: 100%;
+	color: #181818;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 22.8px;
+	border: none;
+	border-bottom: 1px solid #E6E6E6;
+	outline: none;
+}
+.wuf_single input::placeholder{
+	opacity: 1;
+}
+.wuf_single textarea{
+	width: 100%;
+	color: #181818;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 22.8px;
+	border: none;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	outline: none;
+}
+
+.write_us_button button{
+	color: var(--black-black-700, #312C2A);
+	font-size: 19px;
+	line-height: 22.8px;
+	display: flex;
+	width: 220px;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	border-radius: 100px;
+	border: 1px solid var(--black-black-700, #312C2A);
+	background: transparent;
+	transition: 0.1s;
+}
+.write_us_button button:hover{
+	background: #F6F6F6;
+}
+.write_us_button{
+	display: flex;
+	justify-content: center;
+}
+/*==================  End (Write to us) Section  ==================*/
+
+/*==================  Start Footer Section  ==================*/
+.footer_main{
+	padding: 140px 0px;
+	background: #F6F6F6;
+}
+.footer{
+	max-width: 1140px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_single ul li span{
+	color: var(--black-black-900, #312C2A);
+	font-size: 13px;
+	line-height: normal;
+	letter-spacing: -0.39px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.footer_single ul li a {
+    color: var(--black-black-1000, #261913);
+    font-size: 14px;
+    line-height: 19.6px;
+    margin: 8px 0px;
+    display: inline-block;
+}
+.footer_single ul li a:hover{
+	text-decoration: underline;
+}
+.footer_single_form input{
+	color: #787676;
+	font-size: 14px;
+	line-height: 19.6px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 36px;
+	margin-bottom: 24px;
+	border: none;
+	border-bottom: 1px solid rgba(49, 44, 42, 1);
+	background: transparent;
+	outline: none;
+}
+.footer_single_form input::placeholder{
+	opacity: 1;
+}
+.footer_single_form input:nth-child(2) {
+    padding: 0px 140px 0px 0px;
+}
+.footer_single4{
+	max-width: 440px;
+	width: 100%;
+}
+.footer_single_form{
+	position: relative;
+}
+.fsform_btn {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+.fsform_btn button{
+	color: var(--black-black-700, #312C2A);
+	font-size: 19px;
+	line-height: 22.8px;
+	display: flex;
+	align-items: center;
+	border: none;
+	background: #F6F6F6;
+}
+.fsform_btn button i{
+	font-size: 13px;
+	margin-right: 10px;
+}
+.footer_single p{
+	color: var(--black-black-1000, #261913);
+	font-size: 9.5px;
+	line-height: 10.45px;
+	margin-top: 30px;
+}
+
+
+
+
+/*==================  End Footer Section  ==================*/
+
+/*//////////////////////////// End 2nd Page ////////////////////////////*/
 
 
 
