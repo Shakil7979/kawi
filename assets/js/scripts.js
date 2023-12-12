@@ -19,6 +19,35 @@ $(document).ready(function(){
 
 		return false
 	}); 
+ 
+	$('.service_owl_carousel').owlCarousel({
+		items:3.6,
+		loop:true,
+		nav:false,
+		dots:false,
+		margin:20,
+		autoplay:true,
+		responsive:{
+			0:{
+			  items:1
+			},
+			600:{
+			  items:2
+			},
+			1000:{
+				items:3.6,
+			}
+		  }
+	});
+ 
+	$('.service_second_owl').owlCarousel({
+		items:3,
+		loop:true,
+		nav:false,
+		dots:false,
+		margin:20,
+		autoplay:true,
+	});
 
 
 	// Mobile Menu Icon

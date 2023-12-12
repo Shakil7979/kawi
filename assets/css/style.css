@@ -290,8 +290,16 @@ h1 {
 	box-sizing: border-box;
 }
 
+.servies_img img { 
+	height: 285px;
+}
+
 .service_info{
 	margin: 20px 0;
+}
+
+.service_owl_carousel {
+	margin: 1px;
 }
 
 .service_info p {
